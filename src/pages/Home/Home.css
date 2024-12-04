@@ -16,3 +16,7 @@
     cursor: not-allowed;
     background-color: hsl(0, 0%, 10%)
 }
+
+.search-container{
+    margin-bottom: 20px;
+}
