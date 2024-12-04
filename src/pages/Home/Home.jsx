@@ -64,7 +64,6 @@ function Home() {
                 </div>
 
 
-
                 {filteredPosts.length ? (
                     <Posts allposts={filteredPosts} />
                 ) : (
