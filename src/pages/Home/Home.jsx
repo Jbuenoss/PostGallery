@@ -4,6 +4,7 @@ import './Home.css';
 import { Posts } from "../../components/Posts/Posts";
 import { loadPosts } from "../../utils/loadPosts";
 import { TextInput } from "../../components/TextInput/TextInput";
+import { Button } from "../../components/Button/Button";
 
 function Home() {
     const [allposts, setAllPosts] = useState([]);
@@ -74,10 +75,9 @@ function Home() {
 
 
                 {!searchValue && (
-                    <button className="button-load-posts"
+                    <Button text="Load more posts"
                         onClick={loadMorePosts}
-                        disabled={noMorePosts}
-                    >Load more posts</button>
+                        disabled={noMorePosts} />
                 )}
             </section>
         </div>
