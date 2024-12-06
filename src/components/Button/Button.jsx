@@ -1,7 +1,7 @@
 import './Button.css';
 
 export const Button = ({ onClick, disabled, text }) => (
-    <button className="button-load-posts"
+    <button className="button-black"
         onClick={onClick}
         disabled={disabled}>
         {text}
