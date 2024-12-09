@@ -1,7 +1,8 @@
 import { PostCard } from "../PostCard/PostCard.jsx";
 import './Posts.css';
 
-export const Posts = ({ allposts }) => (
+// Initialize allPosts as an empty array to avoid map on undefined
+export const Posts = ({ allposts = [] }) => (
     <div className="posts-container">
         {allposts.map((post) => (
             <PostCard
