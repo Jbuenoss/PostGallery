@@ -10,7 +10,7 @@ function Home() {
     const [allposts, setAllPosts] = useState([]);
     const [posts, setPosts] = useState([]);
     const [page, setPage] = useState(0);
-    const [postPerPage, setPostPerPage] = useState(5);
+    const [postPerPage] = useState(5);
     const [noMorePosts, setNoMorePosts] = useState(false);
     const [searchValue, setSearchValue] = useState('');
     const [filteredPosts, setFilteredPosts] = useState([]);
