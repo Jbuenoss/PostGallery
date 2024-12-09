@@ -1,9 +1,9 @@
-.container{
-    min-height: 100vh;
-    background-color: rgb(220, 220, 220);
-    padding: 30px;
+.container {
+  min-height: 100vh;
+  background-color: rgb(220, 220, 220);
+  padding: 30px;
 }
 
-.search-container{
-    margin-bottom: 20px;
+.search-container {
+  margin-bottom: 20px;
 }

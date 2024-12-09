@@ -18,4 +18,4 @@ PostCard.propTypes = {
     body: P.string.isRequired,
     id: P.number.isRequired,
   }).isRequired,
-}
+};

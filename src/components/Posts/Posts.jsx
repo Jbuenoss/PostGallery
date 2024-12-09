@@ -1,16 +1,14 @@
-import { PostCard } from "../PostCard/PostCard.jsx";
+import { PostCard } from '../PostCard/PostCard.jsx';
 import './Posts.css';
-import P from 'prop-types'
+import P from 'prop-types';
 
 // Initialize allPosts as an empty array to avoid map on undefined
 export const Posts = ({ allposts = [] }) => (
-    <div className="posts-container">
-        {allposts.map((post) => (
-            <PostCard
-                key={post.id}
-                post={post} />
-        ))}
-    </div>
+  <div className="posts-container">
+    {allposts.map((post) => (
+      <PostCard key={post.id} post={post} />
+    ))}
+  </div>
 );
 
 Posts.propTypes = {

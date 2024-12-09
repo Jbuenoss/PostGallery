@@ -1,5 +1,5 @@
 .posts-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Ajusta automaticamente o número de colunas */
-    gap: 20px; /* Espaçamento entre os posts */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Ajusta automaticamente o número de colunas */
+  gap: 20px; /* Espaçamento entre os posts */
 }

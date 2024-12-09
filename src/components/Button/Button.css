@@ -1,12 +1,12 @@
-.button-black{
-    padding: 20px;
-    margin-top: 20px;
-    cursor: pointer;
-    background-color: black;
-    color: white;
+.button-black {
+  padding: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
 }
 
-.button-black:disabled{
-    cursor: not-allowed;
-    background-color: hsl(0, 0%, 10%)
+.button-black:disabled {
+  cursor: not-allowed;
+  background-color: hsl(0, 0%, 10%);
 }
